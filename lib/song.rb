@@ -44,7 +44,7 @@ class Song
     unique_array
   end
   
-  def genre_count
+  def self.genre_count
     # returns a hash
     # {"rap" => 5, "rock" => 1, "country" => 3}
     binding.pry
