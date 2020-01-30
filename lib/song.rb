@@ -47,7 +47,6 @@ class Song
   def self.genre_count
     # returns a hash
     # {"rap" => 5, "rock" => 1, "country" => 3}
-    binding.pry
     genre_hash = {}
     @@genres.each do |genre|
       if !genre_hash[genre]
