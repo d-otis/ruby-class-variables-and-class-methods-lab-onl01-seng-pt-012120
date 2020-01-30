@@ -47,8 +47,9 @@ class Song
   def genre_count
     # returns a hash
     # {"rap" => 5, "rock" => 1, "country" => 3}
-    genre_hash = {}
     binding.pry
+    genre_hash = {}
+    
   end
   
   def artist_count
