@@ -58,7 +58,7 @@ class Song
     genre_hash
   end
   
-  def artist_count
+  def self.artist_count
     # returns a hash similar to the hash in genre_count
     artist_hash = {}
     @@artists.each do |artist|
