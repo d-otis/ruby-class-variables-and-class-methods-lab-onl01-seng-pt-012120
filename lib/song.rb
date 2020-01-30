@@ -49,6 +49,13 @@ class Song
     # {"rap" => 5, "rock" => 1, "country" => 3}
     binding.pry
     genre_hash = {}
+    @@genres.each do |genre|
+      if !genre_hash[genre]
+        genre_hash[genre] = 1
+      else
+        genre_hash[genre] += 1
+      end
+    end
     
   end
   
