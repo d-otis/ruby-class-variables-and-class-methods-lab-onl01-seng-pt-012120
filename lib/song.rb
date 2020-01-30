@@ -24,6 +24,13 @@ class Song
   def self.genres
     # returns an array of all the genres of existing songs
     # control for duplicates
+    unique_array = []
+    @@genres.each do |genre|
+      if !unique_array.include?(genre)
+        unique_array << genre
+      end
+      unique_array
+    end
   end
   
   def self.artists
