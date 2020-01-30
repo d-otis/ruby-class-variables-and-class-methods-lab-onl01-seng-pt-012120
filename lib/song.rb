@@ -29,8 +29,8 @@ class Song
       if !unique_array.include?(genre)
         unique_array << genre
       end
-      unique_array
     end
+    unique_array
   end
   
   def self.artists
